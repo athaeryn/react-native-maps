@@ -31,6 +31,7 @@ import LiteMapView from './examples/LiteMapView';
 import CustomTiles from './examples/CustomTiles';
 import ZIndexMarkers from './examples/ZIndexMarkers';
 import StaticMap from './examples/StaticMap';
+import PixelOffsets from './examples/PixelOffsets';
 
 const IOS = Platform.OS === 'ios';
 const ANDROID = Platform.OS === 'android';
@@ -124,6 +125,7 @@ class App extends React.Component {
       [EventListener, 'Events', true, '(incomplete)'],
       [MarkerTypes, 'Image Based Markers', true],
       [DraggableMarkers, 'Draggable Markers', true],
+      [PixelOffsets, 'Pixel Offsets', true, "(haven't checked)"],
       [PolygonCreator, 'Polygon Creator'],
       [PolylineCreator, 'Polyline Creator'],
       [AnimatedViews, 'Animating with MapViews'],
